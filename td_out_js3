@@ -46,8 +46,8 @@ var transformToDb = function(aftercut) {
 }
 
 var td = new Treasure({
-    host: 'in.treasuredata.com',
-    writeKey: '9265/d4a94f4730be45ab1d6248491444b38c08fe240f',
+    host: '',
+    writeKey: '',
     database: transformToDb(aftercut)
   });
 
